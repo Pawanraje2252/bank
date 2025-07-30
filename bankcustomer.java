@@ -16,15 +16,8 @@ public class bankcustomer {
 		System.out.print("Enter Currentbalance:");
 		double currectbalance = ab.nextDouble();
 		
-//		System.out.println("enter ammount:");
-//		double ammount =ab.nextDouble();
-		
-
 		bank sbi = new bank();
 		sbi.setcustomedetails(customername, accountnumber, currectbalance);
-//		sbi.withdraw(ammount);
-//		sbi.deposit(ammount);
-//		sbi.displaydetails();
 		
 		while(true)
 		{
